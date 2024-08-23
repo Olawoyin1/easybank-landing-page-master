@@ -43,7 +43,7 @@ h1,h2,h3,h4,h5,h6,strong,small{
 }
 
 .container2{
-  width: 80%;
+  width: 85%;
   margin: 0 auto !important;
 }
 
@@ -122,9 +122,6 @@ a {
   min-height: 100%;
   min-height: 80vh;
   display: flex;
-  /* align-items: center; */
-  /* justify-content: center; */
-  /* background-color: red; */
 }
 
 .hero-text{
@@ -132,4 +129,15 @@ a {
   align-items: start;
   justify-content: center;
   flex-direction: column;
+}
+
+
+.grid1 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+}
+
+.grid1 img{
+    width: 55px;
 }
