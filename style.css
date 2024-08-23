@@ -3,7 +3,7 @@
 
 
 *{
-  border: 1px  solid red;
+  /* border: 1px  solid red; */
   box-sizing: border-box !important; 
   padding: 0 !important;
   list-style-type: none;
@@ -41,6 +41,10 @@ h1,h2,h3,h4,h5,h6,strong,small{
   margin: 0 !important;
 
 }
+
+/* section{
+    padding: 3rem 0 !important;
+} */
 
 .container2{
   width: 85%;
@@ -132,12 +136,52 @@ a {
 }
 
 
-.grid1 {
+.grid1,
+.grid2 {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 1rem;
 }
 
+
+
 .grid1 img{
     width: 55px;
 }
+
+
+.grid2 h2{
+    font-size: 18px;
+}
+
+.box{
+    border-radius: 0.4rem;
+    overflow: hidden !important;
+}
+
+.box-image{
+    height: 180px;
+    object-fit: contain;
+    background-color: red;
+}
+
+
+.box-image img {
+    height: 100%;
+}
+
+
+.box-content p{
+    line-height: 18px !important;
+    /* color: red; */
+    font-size: 11px !important;
+}
+
+.box-content h2{
+    line-height: 18px !important;
+    /* color: red; */
+    font-size: 14px !important;
+    font-weight: bold;
+}
+
+
