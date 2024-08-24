@@ -12,12 +12,15 @@
       href="./images/favicon-32x32.png"
     />
 
-    <link rel="stylesheet" href="style.css" />
-
-    <link
+    <!-- <link
       rel="stylesheet"
       href="./node_modules/bootstrap/dist/css/bootstrap.css"
-    />
+    /> -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css" />
+
 
     <title>Frontend Mentor | Easybank landing page</title>
 
@@ -64,7 +67,7 @@
           <div class="d-none d-lg-flex mail gap-3">
             <button>Request Invite</button>
           </div>
-          <img src="./images/icon-hamburger.svg" class="menu-btn" alt="">
+          <img src="./images/icon-hamburger.svg" class="menu-btn d-flex d-lg-none" alt="">
         </div>
       </div>
     </header>
@@ -72,7 +75,7 @@
     <section class="main">
       <div class="container2">
         <div class="row flex-column-reverse flex-lg-row hero m-0">
-          <div class="col-lg-5 d-flex text-center text-lg-start justify-content-center align-items-lg-start align-items-center flex-column gap-2">
+          <div class="col-lg-5 d-flex text-center text-lg-start justify-content-center align-items-lg-start align-items-center flex-column gap-2 p-4 p-lg-0">
             <h1 class="hero-header">Next generation digital banking</h1>
 
             <p class="text-muted my-2">
@@ -83,12 +86,12 @@
 
             <button class="d-inline-block">Request Invite</button>
           </div>
-          <div class="col-lg-7 hero-im">
-            <!-- <img
+          <div class="col-lg-7 hero-img">
+            <img
               src="../../../Images/image-mockups.png"
               class="img-fluid img2"
               alt="hero_image"
-            /> -->
+            />
           </div>
         </div>
       </div>

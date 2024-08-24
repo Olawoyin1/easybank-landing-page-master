@@ -4,5 +4,7 @@ const navlinks = document.querySelectorAll('.nav-link');
 
 
 navlinks.forEach(item => {
-    console.log("item clicked")
+    item.addEventListener("click", () =>{
+        console.log("item clicked")
+    })
 })
