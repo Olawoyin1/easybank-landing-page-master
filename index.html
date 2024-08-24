@@ -64,6 +64,7 @@
           <div class="d-none d-lg-flex mail gap-3">
             <button>Request Invite</button>
           </div>
+          <img src="./images/icon-hamburger.svg" class="menu-btn" alt="">
         </div>
       </div>
     </header>
@@ -71,7 +72,7 @@
     <section class="main">
       <div class="container2">
         <div class="row flex-column-reverse flex-lg-row hero m-0">
-          <div class="col-lg-5 hero-text gap-2">
+          <div class="col-lg-5 d-flex text-center text-lg-start justify-content-center align-items-lg-start align-items-center flex-column gap-2">
             <h1 class="hero-header">Next generation digital banking</h1>
 
             <p class="text-muted my-2">
@@ -80,29 +81,31 @@
               more.
             </p>
 
-            <button>Request Invite</button>
+            <button class="d-inline-block">Request Invite</button>
           </div>
-          <div class="col-lg-7 hero-img">
-            <img
+          <div class="col-lg-7 hero-im">
+            <!-- <img
               src="../../../Images/image-mockups.png"
               class="img-fluid img2"
               alt="hero_image"
-            />
+            /> -->
           </div>
         </div>
       </div>
     </section>
 
-    <section class="why m-0 p-5">
+    <section class="why py-5">
       <div class="container2">
-        <h2>Why choose Easybank?</h2>
-        <p class="text-muted my-3 w-lg-50">
-          We leverage Open Banking to turn your bank account into your financial
-          hub. Control your finances like never before.
-        </p>
+        <div class="row  m-0 head d-flex align-items-start text-center text-sm-start justify-content-start align-items-center align-items-sm-start flex-column gap-2">
+          <h2>Why choose Easybank?</h2>
+          <p class="text-muted my-3 w-lg-50">
+            We leverage Open Banking to turn your bank account into your financial
+            hub. Control your finances like never before.
+          </p>
+        </div>
 
         <div class="grid1">
-          <div class="p-3 d-flex align-items-start flex-column gap-2">
+          <div class="p-3 d-flex align-items-start text-center text-sm-start justify-content-start align-items-center align-items-sm-start flex-column gap-2">
             <img src="./images/icon-online.svg" class="img-fluid" alt="" />
 
             <h5>Online Banking</h5>
@@ -112,7 +115,7 @@
             </small>
           </div>
 
-          <div class="p-3 d-flex align-items-start flex-column gap-2">
+          <div class="p-3 d-flex align-items-start text-center text-sm-start justify-content-start align-items-center align-items-sm-start flex-column gap-2">
             <img src="./images/icon-budgeting.svg" class="img-fluid" alt="" />
 
             <h5>Simple Budgeting</h5>
@@ -122,7 +125,7 @@
             </small>
           </div>
 
-          <div class="p-3 d-flex align-items-start flex-column gap-2">
+          <div class="p-3 d-flex align-items-start text-center text-sm-start justify-content-start align-items-center align-items-sm-start flex-column gap-2">
             <img src="./images/icon-onboarding.svg" class="img-fluid" alt="" />
 
             <h5>Fast Onboarding</h5>
@@ -132,7 +135,7 @@
             </small>
           </div>
 
-          <div class="p-3 d-flex align-items-start flex-column gap-2">
+          <div class="p-3 d-flex align-items-start text-center text-sm-start justify-content-start align-items-center align-items-sm-start flex-column gap-2">
             <img src="./images/icon-api.svg" class="img-fluid" alt="" />
             <h5>Open API</h5>
             <small class="text-muted">
@@ -145,9 +148,9 @@
     </section>
 
 
-    <section class="article p-5">
+    <section class="article py-5">
       <div class="container2">
-        <h2>Latest Articles</h2>
+        <h3 class="my-4 text-center text-sm-start">Latest Articles</h3>
 
         <div class="grid2">
 
@@ -203,37 +206,56 @@
       </div>
     </section>
 
-    <footer class="bg-primary p-4">
+    <footer class="py-5 text-white">
       <div class="container2">
-        <div class="d-flex align-items-center-justify-content-between">
-          <div class="d-flex">
-            <div class="d-flex">
-              <img src="" alt="">
-              <div class="d-flex links">
+        <div class="d-flex flex-column flex-md-row align-items-center gap-3 justify-content-between">
+          <div class="d-flex flex-column flex-md-row gap-3 gap-md-5">
+            <div class="d-flex justify-content-center flex-column gap-3 gap-md-4">
+              <img src="./images/logo.svg" class="svg-color" alt="">
+              <div class="d-flex gap-2 links">
                 <img src="./images/icon-youtube.svg" alt="">
-                <img src="./images/icon-youtube.svg" alt="">
-                <img src="./images/icon-youtube.svg" alt="">
-                <img src="./images/icon-youtube.svg" alt="">
-                <img src="./images/icon-youtube.svg" alt="">
+                <img src="./images/icon-facebook.svg" alt="">
+                <img src="./images/icon-instagram.svg" alt="">
+                <img src="./images/icon-pinterest.svg" alt="">
+                <img src="./images/icon-twitter.svg" alt="">
               </div>
             </div>
+            
+            <ul class="d-flex align-items-center align-items-md-start m-0 flex-column gap-3">
+              <li>About Us</li>
+              <li>Contact</li>
+              <li>Blog</li>
+            </ul>
+            
+            <ul class="d-flex align-items-center align-items-md-start flex-column m-0 gap-3">
+              <li>Careers</li>
+              <li>Support</li>
+              <li>Privacy Policy</li>
+            </ul>
+            
+          </div>
+          <div class="right d-flex align-items-center align-items-md-end flex-column gap-3">
+            <button>Request Invite</button>
+            <small>© Easybank. All Rights Reserved</small>
           </div>
         </div>
       </div>
     </footer>
-      
     
-    
-     
-    
-    About Us Contact Blog Careers
-    Support Privacy Policy Request Invite © Easybank. All Rights Reserved
-
-    <div class="attribution">
+    <div class="attribution p-2">
       Challenge by
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
         >Frontend Mentor</a
-      >. Coded by <a href="#">Your Name Here</a>.
+      >. Coded by <a href="#">Olawoyin</a>.
     </div>
+    
+    
+     
+
+
+    <script src="./script.js"></script>
+    
+    
+
   </body>
 </html>

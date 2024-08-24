@@ -10,14 +10,13 @@
   text-decoration: none !important;
   scroll-behavior: smooth;
   font-family: "Public Sans", sans-serif;
-  /* overflow: hidden; */
-  /* overflow-x: hidden; */
-  /* overflow-y: auto; */
 }
 
 
 
-
+.menu-btn{
+    width: 24px;
+}
 
 button{
   border: none !important;
@@ -42,9 +41,6 @@ h1,h2,h3,h4,h5,h6,strong,small{
 
 }
 
-/* section{
-    padding: 3rem 0 !important;
-} */
 
 .container2{
   width: 85%;
@@ -54,6 +50,7 @@ h1,h2,h3,h4,h5,h6,strong,small{
 body{
   color: #333333;
   overflow-x: hidden;
+  background-color: hsl(0, 0%, 98%) !important;
 }
 
 img{
@@ -81,14 +78,11 @@ a {
 
 .main-header{
   background: #ffffff;
-  /* z-index: 9999; */
 }
 
 .main{
   position: relative;
   z-index: -1;
-  background-color: #fafafa;
-  /* overflow: hidden; */
 }
 
 .main::after{
@@ -96,10 +90,9 @@ a {
   position: absolute;
   width: 55%;
   height: 1000px;
-  /* height: 100%; */
   top: -20rem;
   right: 0;
-  background-image: url("../public/Images/bg-intro-desktop.svg");
+  /* background-image: url("./Images/bg-intro-desktop.svg"); */
   overflow: hidden;
 }
 
@@ -111,8 +104,8 @@ a {
 }
 
 .img2{
-  width: 590px;
-
+    width: 590px;
+    z-index: 1000;
 }
 
 
@@ -135,6 +128,11 @@ a {
   flex-direction: column;
 }
 
+
+.why{
+    
+    background-color:  hsl(220, 16%, 96%) !important;
+}
 
 .grid1,
 .grid2 {
@@ -184,4 +182,18 @@ a {
     font-weight: bold;
 }
 
+.svg-color {
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(100%) contrast(100%);
+  }
+
+footer ,
+.attribution{
+    color: #fff !important;
+    background-color: hsl(233, 26%, 24%);
+}
+
+.attribution a{
+    color: #fff !important;
+
+}
 
